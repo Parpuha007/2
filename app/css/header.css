@@ -1,0 +1,175 @@
+html {
+	height: 100%;
+	font-size: 20px;
+}
+body{
+	font: normal 1em 'fira_sansregular';
+}
+/* Шапка */
+.container {
+	min-width: 960px;
+	height: 100%;
+	margin: 0 auto;
+	position: relative;
+}
+.header {
+	background-image: 
+	url('../img/header.png'),
+	linear-gradient(white,#FA8072);
+	background-repeat: no-repeat;
+	background-blend-mode: multiply, darken; 
+	min-height: 500px;
+	position: relative;
+	background-size: cover;
+}
+.header__site-name {
+	float: left;
+	position: absolute;
+	left: 4%;
+	top: 4.5%;
+	font-size: 25px;
+	color: white;
+	text-decoration: none;
+	transition: 1.5s;
+}
+.header__site-name:hover {
+	color: #E32636;
+	transform: scale(1.05);
+}
+.header__navigation {
+	float: right;
+	margin-right: 4%;
+}
+.header__navigation-item {
+	display: inline-block;
+	padding: 10px;
+	
+}
+.header-nav-link {
+	font-size: 14px;
+	color: #fff;
+	transition: 0.5s;
+	text-decoration: none;
+	display: block;
+}
+.header-nav-link:hover {
+	color: #E32636;
+	transform: translate(0,5px);
+}
+
+.container-header-text{
+	position: absolute;
+	left: 50%;
+	top: 45%;
+	transform: translate(-50%);
+	color: white;
+
+}
+.main-h1 {
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	letter-spacing: 6px;
+}
+.main-p {
+	margin: 0;
+	padding: 0;
+}
+/* Шапка - конец */
+
+/* прибьем футер к низу */
+.wrapper {
+	position: relative;
+	min-height: 100%;
+	min-width: 970px;
+	height: auto;
+}
+.wrapper:after {
+	content: "";
+	height: 80px;
+	display: block;
+}
+.footer {
+	height: 100px;
+	min-width: 970px;
+	margin-top: -80px;
+}
+/* прибьем футер к низу - конец */
+
+/* Футер */
+.footer {
+	background-image: url(../img/footer.png);
+	color: white;
+}
+.footer-copyright {
+	float: left;
+	margin-left: 4%;
+}
+.footer-wgore {
+	float: right;
+	margin-right: 4.6%;
+}
+/* Футер - конец */
+
+/* О нас left*/
+.o-nas {
+	margin-top: 110px;
+	margin-bottom: 150px;
+}
+.o-nas-text {
+	display: inline-block;
+	max-width: 45%;
+	margin-left: 4%;
+	position: relative;
+}
+.o-nas-h2 {
+	font-size: 34,17px;
+	color: #E32636;
+}
+.o-nas-p {
+	color: #737373;
+	width: 80%;
+}
+.o-nas-h3 {
+	font-size: 22px;
+	color: #E32636;
+}
+.o-nas-button {
+	background-color: rgba(227,38,54, 0.8);
+	width: 150px;
+	height: 60px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold; 
+	border-radius: 10px;
+	border: none;
+	transition: 1s;
+}
+.o-nas-button:hover {
+	background-color: #E32636;
+}
+/* О нас left - конец*/
+
+/* О нас right*/
+.o-nas-pic {
+	display: inline-block;
+	width: 45%;
+	height: 380px;
+	margin-right: 4%;
+	position: relative;
+	background-image: 
+	url('../img/o-nas.png'),
+	linear-gradient(white,#FA8072);
+	background-repeat: no-repeat;
+	background-blend-mode: multiply, darken;
+	margin-top: 36px;
+	float: right;
+}
+.o-nas-pic-p {
+	position: absolute;
+	color: white;
+	font-size: 22px;
+	top: 80%;
+	left: 75%;
+	font-weight: bold; 
+}
