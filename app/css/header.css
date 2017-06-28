@@ -9,7 +9,7 @@ body{
 /* section styles */
 .section-head {
 	font-size: 34,17px;
-	color: #E32636;
+	color: #00a1eb;
 }
 .section-p {
 	color: #737373;
@@ -17,7 +17,6 @@ body{
 /* Шапка */
 .container {
 	min-width: 960px;
-	height: 100%;
 	margin: 0 auto;
 	position: relative;
 }
@@ -26,8 +25,7 @@ body{
 }
 .header {
 	background-image: 
-	url('../img/header.png'),
-	linear-gradient(white,#FA8072);
+	url('../img/header.png');
 	background-repeat: no-repeat;
 	background-blend-mode: multiply, darken; 
 	min-height: 500px;
@@ -46,7 +44,7 @@ body{
 	transition: 1.5s;
 }
 .header__site-name:hover {
-	color: #E32636;
+	color: #00a1eb;
 	transform: scale(1.05);
 }
 .header__navigation {
@@ -66,7 +64,7 @@ body{
 	display: block;
 }
 .header-nav-link:hover {
-	color: #E32636;
+	color: #00a1eb;
 	transform: translate(0,5px);
 }
 
@@ -126,7 +124,7 @@ body{
 /* О нас left*/
 .o-nas {
 	margin-top: 110px;
-	margin-bottom: 150px;
+	margin-bottom: 100px;
 }
 .o-nas-text {
 	display: inline-block;
@@ -136,13 +134,13 @@ body{
 }
 .o-nas-h3 {
 	font-size: 22px;
-	color: #E32636;
+	color: #00a1eb;
 }
 .o-nas-p {
 	width: 90%;
 }
 .o-nas-button {
-	background-color: rgba(227,38,54, 0.8);
+	background-color: rgba(0,161,235, 0.7);
 	width: 150px;
 	height: 60px;
 	font-size: 14px;
@@ -153,7 +151,7 @@ body{
 	transition: 1s;
 }
 .o-nas-button:hover {
-	background-color: #E32636;
+	background-color: #00a1eb;
 }
 /* О нас left - конец*/
 
@@ -202,3 +200,51 @@ body{
 }
 
 /* Carousel */
+.carousel-list {
+	list-style: none;
+	margin-left: 20px;
+}
+.carousel-item {
+	display: inline-block;
+	position: relative;
+	width: 270px;
+	height: 270px;
+	text-align: center;
+	margin-right: 40px;
+}
+
+.carousel-item:hover .asort-fish-button {
+	display: block;
+
+}
+
+/*Fish*/
+.asort-fish {
+	position: absolute;
+	color: white;
+	top: 50%;
+	left: 50%;
+}
+.asort-fish-name {
+	font-size: 18px;
+	font-weight: bold;
+	margin: 0;
+	transform: translate(-45%, -100%);
+
+	
+}
+.asort-fish-price {
+	font-size: 20px;
+	transform: translate(-45%, -40%);
+}
+.asort-fish-button {
+	position: absolute;
+	display: none;
+	top: 70%;
+	left: 50%;
+	transform: translateX(-50%);
+	color: #00a1eb;
+	height: 40px;
+	width: 100px;
+	font-weight: bold;
+}
