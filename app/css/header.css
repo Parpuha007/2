@@ -5,12 +5,24 @@ html {
 body{
 	font: normal 1em 'fira_sansregular';
 }
+
+/* section styles */
+.section-head {
+	font-size: 34,17px;
+	color: #E32636;
+}
+.section-p {
+	color: #737373;
+}
 /* Шапка */
 .container {
 	min-width: 960px;
 	height: 100%;
 	margin: 0 auto;
 	position: relative;
+}
+.container-center {
+	text-align: center;
 }
 .header {
 	background-image: 
@@ -21,6 +33,7 @@ body{
 	min-height: 500px;
 	position: relative;
 	background-size: cover;
+	user-select: none;
 }
 .header__site-name {
 	float: left;
@@ -57,7 +70,7 @@ body{
 	transform: translate(0,5px);
 }
 
-.container-header-text{
+.header-caption{
 	position: absolute;
 	left: 50%;
 	top: 45%;
@@ -68,7 +81,6 @@ body{
 .main-h1 {
 	margin: 0;
 	padding: 0;
-	text-align: center;
 	letter-spacing: 6px;
 }
 .main-p {
@@ -89,17 +101,17 @@ body{
 	height: 80px;
 	display: block;
 }
-.footer {
-	height: 100px;
-	min-width: 970px;
-	margin-top: -80px;
-}
+
 /* прибьем футер к низу - конец */
 
 /* Футер */
 .footer {
 	background-image: url(../img/footer.png);
 	color: white;
+	height: 80px;
+	min-width: 970px;
+	margin-top: -80px;
+	border-radius: 0 0 10px 10px;
 }
 .footer-copyright {
 	float: left;
@@ -122,17 +134,12 @@ body{
 	margin-left: 4%;
 	position: relative;
 }
-.o-nas-h2 {
-	font-size: 34,17px;
-	color: #E32636;
-}
-.o-nas-p {
-	color: #737373;
-	width: 80%;
-}
 .o-nas-h3 {
 	font-size: 22px;
 	color: #E32636;
+}
+.o-nas-p {
+	width: 90%;
 }
 .o-nas-button {
 	background-color: rgba(227,38,54, 0.8);
@@ -173,3 +180,25 @@ body{
 	left: 75%;
 	font-weight: bold; 
 }
+/* О нас right - конец */
+
+/* Асортимент - начало */
+.asort {
+	
+} 
+.asort-p {
+	width: 40%;
+	margin: auto;
+}
+
+.hr {
+	width: 20%;
+}
+.hr-o-nas {
+	width: 15%;
+	position: relative;
+	float: left;
+	margin-top: -3%;
+}
+
+/* Carousel */
