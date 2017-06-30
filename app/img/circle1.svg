@@ -1,0 +1,14 @@
+<svg width="101" height="85" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="87" width="103" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGUAAABVCAMAAABn2NpQAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAAZQTFRF////////VXz1bAAAAAJ0Uk5T/wDltzBKAAABSElEQVR42uyYyQ7DMAhEh///6Z4qZZmUHTdRfESpXx0YmBhyXgCMQevi+513pME0BZZghvID005JYejvZijlmJfyUrpluU4v9Y1sVbdsgKyidEAE7fXFKNezRaop1Ud5KXemlNfYjF6GtN9ymFU9ecjzz3y/NKyX8q8UFCyVUrOeRFH+ADDBQX4OGjBIjw7bcbJN3fPSUhDLEzMUCcnZJ4TLR29HkcWUurx850u4o1utrdbMsnV8GwpcFIlR7GWCXa0EuqTLw7QZi71TamRs/VgjZOf6uhiP9snm7yPfdIXa/CrumKC1JZZov4QVNbNgpsZohbJgoJSpKt0xZ4cRsuMhDRFHCmYBcailbTBk40Et4LFit0EWc1NOO8IQ8+aF7Ag95q2xnvRTHcAqmABF+mQJmWgxsF3zJe/kND9WM5kHKXjGWT4CDAAnKBjHrPRsMAAAAABJRU5ErkJggg==" id="svg_1" height="85" width="101" y="0" x="0"/>
+ </g>
+</svg>

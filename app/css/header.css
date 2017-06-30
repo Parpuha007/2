@@ -1,6 +1,7 @@
 html {
 	height: 100%;
 	font-size: 20px;
+	width: 100%;
 }
 body{
 	font: normal 1em 'fira_sansregular';
@@ -139,7 +140,7 @@ body{
 .o-nas-p {
 	width: 90%;
 }
-.o-nas-button {
+.button {
 	background-color: rgba(0,161,235, 0.7);
 	width: 150px;
 	height: 60px;
@@ -150,7 +151,7 @@ body{
 	border: none;
 	transition: 1s;
 }
-.o-nas-button:hover {
+.button:hover {
 	background-color: #00a1eb;
 }
 /* О нас left - конец*/
@@ -174,16 +175,16 @@ body{
 	position: absolute;
 	color: white;
 	font-size: 22px;
-	top: 80%;
-	left: 75%;
+	top: 70%;
+	left: 65%;
 	font-weight: bold; 
 }
 /* О нас right - конец */
 
 /* Асортимент - начало */
 .asort {
-	
-} 
+	margin-bottom: 70px;
+}
 .asort-p {
 	width: 40%;
 	margin: auto;
@@ -202,7 +203,8 @@ body{
 /* Carousel */
 .carousel-list {
 	list-style: none;
-	margin-left: 20px;
+	margin-bottom: 50px;
+
 }
 .carousel-item {
 	display: inline-block;
@@ -248,3 +250,45 @@ body{
 	width: 100px;
 	font-weight: bold;
 }
+
+/* circles */
+.circles {
+	width: inherit;
+}
+.circles-group {
+	width: 33%;
+	display: inline-block;
+	text-align: center;
+}
+.circles-back {
+	background-color: #00a1eb;
+	width: 150px;
+	height: 150px;
+	border-radius: 50%;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+}
+.circles-img {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-45%, -50%);
+	fill: red;
+}
+.circles-img:hover {
+}
+.circles-caption {
+	color: #00a1eb;
+	font-size: 24px;
+	margin-bottom: 0;
+}
+.circles-text {
+	font-size: 14px;
+	color: #737373;
+}
+.button-circles {
+	margin-top: 40px;
+}
+
+
